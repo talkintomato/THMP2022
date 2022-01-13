@@ -1,0 +1,14 @@
+.main {
+	display: grid;
+	justify-content: center;
+}
+
+.header {
+	font-size: 40px;
+	text-align: center;
+}
+
+.subheader {
+	font-size: 18px;
+	text-align: center;
+}
