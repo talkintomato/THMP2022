@@ -19,6 +19,7 @@ export default function Info() {
 					padding: "1em ",
 					margin: "5%",
 					alignItems: "center",
+					backgroundColor: "transparent",
 				}}
 			>
 				<Typography variant="h3" fontWeight="bold">
@@ -45,6 +46,7 @@ export default function Info() {
 					margin: "5%",
 					alignItems: "center",
 					minHeight: "400px",
+					backgroundColor: "rgba(255,255,255,0.4)",
 				}}
 			>
 				<Grid container>

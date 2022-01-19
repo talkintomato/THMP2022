@@ -3,6 +3,7 @@ import "./styles.css";
 import Tabs from "./Tabs";
 import "./Footer.css";
 import InstagramIcon from "@material-ui/icons/Instagram";
+import background from "./prison_bg1.jpeg";
 
 export default function App() {
 	function redirectInsta() {
@@ -14,16 +15,18 @@ export default function App() {
 
 	return (
 		<>
-			<Tabs></Tabs>
-			<div className="footer">
-				<div>
-					<InstagramIcon
-						className="largeIcon inline-block-child"
-						onClick={redirectInsta}
-					></InstagramIcon>
-					<p className="inline-block-child" onClick={redirectInsta}>
-						Temasek THeatrette
-					</p>
+			<div style={{ backgroundImage: `url(${background})` }}>
+				<Tabs TabIndicatorProps={{ style: { background: "white" } }}></Tabs>
+				<div className="footer">
+					<div>
+						<InstagramIcon
+							className="largeIcon inline-block-child"
+							onClick={redirectInsta}
+						></InstagramIcon>
+						<p className="inline-block-child" onClick={redirectInsta}>
+							Temasek THeatrette
+						</p>
+					</div>
 				</div>
 			</div>
 		</>

@@ -5,7 +5,11 @@ import "./Home.css";
 function Home() {
 	return (
 		<>
-			<Paper padding="3vw" style={{ textAlign: "center" }} elevation="0">
+			<Paper
+				padding="3vw"
+				style={{ textAlign: "center", backgroundColor: "transparent" }}
+				elevation="0"
+			>
 				<Typography variant="h1" fontWeight="bold" style={{ fontSize: "6vw" }}>
 					LABYRITH COLDRIDGE
 				</Typography>
