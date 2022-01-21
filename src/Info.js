@@ -10,8 +10,14 @@ export default function Info() {
 			allVariants: {
 				color: "#ffffff",
 			},
-			h1: {
+			h3: {
 				letterSpacing: 6,
+				fontFamily: "Adam",
+			},
+			h2: {
+				letterSpacing: 6,
+				fontFamily: "Adam",
+				fontWeight: "bold",
 			},
 			h6: {
 				color: "rgb(255,255,255,0.8)",
@@ -28,6 +34,40 @@ export default function Info() {
 
 	return (
 		<ThemeProvider theme={theme}>
+			<Grid
+				container
+				justifyContent="center"
+				paddingTop="5vh"
+				textAlign="center"
+			>
+				<Typography variant="h2"> SELECT SHOWDATE</Typography>
+			</Grid>
+			<Grid container justifyContent="center">
+				<Button
+					variant="contained"
+					size="large"
+					style={{
+						margin: "3%",
+						backgroundColor: "#A9A9A9",
+						color: "rgb(0,0,0)",
+						fontFamily: "Adam",
+					}}
+				>
+					23 Feb 2022 TICKETS
+				</Button>
+				<Button
+					variant="contained"
+					size="large"
+					style={{
+						margin: "3%",
+						backgroundColor: "#A9A9A9",
+						color: "rgb(0,0,0)",
+						fontFamily: "Adam",
+					}}
+				>
+					24 Feb 2022 TICKETS
+				</Button>
+			</Grid>
 			<Paper
 				elevation={0}
 				style={{

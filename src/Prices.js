@@ -6,6 +6,7 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { Typography } from "@mui/material";
 
 function createData(name, Individual, four, eight) {
 	return { name, Individual, four, eight };
@@ -25,6 +26,7 @@ const theme = createTheme({
 export default function rices() {
 	return (
 		<ThemeProvider theme={theme}>
+			<Typography> Tickets </Typography>
 			<TableContainer>
 				<Table sx={{ minWidth: 400 }} aria-label="Ticket Prices">
 					<TableHead>
@@ -37,7 +39,10 @@ export default function rices() {
 							></TableCell>
 							<TableCell
 								align="left"
-								style={{ color: "rgb(255,255,255)", fontWeight: "bold" }}
+								style={{
+									color: "rgb(255,255,255)",
+									fontWeight: "bold",
+								}}
 							>
 								Individual
 							</TableCell>

@@ -13,12 +13,16 @@ export default function Contact() {
 			h1: {
 				letterSpacing: 6,
 			},
-
 			subtitle2: {
 				color: "rgba(255,255,255,0.8)",
+				fontFamily: "Adam",
+			},
+			subtitle1: {
+				fontFamily: "Adam",
 			},
 			h3: {
 				fontWeight: "bold",
+				fontFamily: "Adam",
 			},
 		},
 	});
@@ -31,7 +35,7 @@ export default function Contact() {
 			<Card
 				style={{
 					backgroundColor: "rgba(255,255,255,0.25)",
-					margin: "30px",
+					margin: "5%",
 					padding: "10px",
 				}}
 			>
@@ -41,7 +45,7 @@ export default function Contact() {
 					</Grid>
 
 					<Grid item xs={12} md={8}>
-						<Typography variant="h3" paddingBottom="3vh">
+						<Typography variant="h3" paddingTop="3%">
 							Directors Message
 						</Typography>
 						<Typography variant="h6">
@@ -53,7 +57,7 @@ export default function Contact() {
 							pandemic to come to you this Feberuary.
 							<br />
 							<br /> Live from Gateway Theatre, Labyrinth Coldridge looks
-							forward to seeing you on 23, 24 Feberuary.
+							forward to seeing you on 23, 24 February.
 							<br />
 							<br />- Noah Teo
 						</Typography>
@@ -66,7 +70,7 @@ export default function Contact() {
 				justifyItems="center"
 				spacing={5}
 				style={{
-					padding: "10px",
+					padding: "5%",
 				}}
 			>
 				<Grid item xs={12} sm={12}>
@@ -88,7 +92,6 @@ export default function Contact() {
 							alt={item.title}
 							loading="lazy"
 							width="100%"
-							height="60%"
 						/>
 						<Typography variant="subtitle1" align="center" fontWeight="bold">
 							{item.title}
