@@ -9,10 +9,11 @@ function Home() {
 		typography: {
 			fontFamily: ["Anton", "sans-serif"].join(","),
 			allVariants: {
-				color: "rgb(174,170,175)",
+				color: "rgba(174,170,175,0.6)",
 			},
 			h1: {
 				letterSpacing: 6,
+				color: "rgb(174,170,175)",
 			},
 		},
 	});
@@ -24,8 +25,8 @@ function Home() {
 					padding="4vw"
 					style={{
 						textAlign: "center",
-						backgroundColor: "transparent",
-						height: "100vh",
+						backgroundColor: "black",
+						height: "80vh",
 						paddingTop: "4vw",
 					}}
 					elevation="0"

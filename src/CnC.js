@@ -2,6 +2,7 @@ import React from "react";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { Grid, Typography } from "@mui/material";
 import { itemData } from "./CrewList";
+import director from "./THEATRE_5986.jpg";
 
 export default function Contact() {
 	const theme = createTheme({
@@ -23,7 +24,11 @@ export default function Contact() {
 			<Typography variant="h2" align="center" padding="30px" fontWeight="bold">
 				Cast and Creative
 			</Typography>
-			<Grid container padding="15px">
+			<Grid container maxHeight="500px"></Grid>
+			<Grid item>
+				{/* <img src={director} alt={"director"} loading="lazy" /> */}
+			</Grid>
+			<Grid item padding="15px">
 				<Typography>Directors message</Typography>
 				<Typography>
 					Director’s Message: Labyrinth Coldridge is a Temasek Hall musical,
