@@ -3,6 +3,9 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { Grid, Typography, Card } from "@mui/material";
 import { itemData } from "./CrewList";
 import director from "./THEATRE_5986.jpg";
+import CreativeTable from "./CreativeTable.js";
+import CreativeListOne from "./data/CreativeListOne.js";
+import CreativeListTwo from "./data/CreativeListTwo.js";
 
 export default function Contact() {
 	const theme = createTheme({
@@ -73,19 +76,11 @@ export default function Contact() {
 					padding: "5%",
 				}}
 			>
-				<Grid item xs={12} sm={12}>
-					<Typography variant="h3"> CAST </Typography>
+				<Grid item xs={12} sm={12} textAlign="center">
+					<Typography variant="h3"> ~ CAST ~</Typography>
 				</Grid>
 				{itemData.map((item) => (
-					<Grid
-						item
-						key={item.img}
-						xs={6}
-						sm={3}
-						// paddingBottom="30px"
-						// paddingLeft="15px"
-						// paddingRight="15px"
-					>
+					<Grid item key={item.img} xs={6} sm={3}>
 						<img
 							src={`${item.img}`}
 							srcSet={`${item.img}`}
@@ -105,6 +100,26 @@ export default function Contact() {
 						</Typography>
 					</Grid>
 				))}
+			</Grid>
+			<Grid
+				container
+				justifyItems="center"
+				justifyContent="center"
+				spacing={5}
+				style={{
+					padding: "5%",
+					marginBottom: "3vh",
+				}}
+			>
+				<Grid item xs={12} sm={12} textAlign="center">
+					<Typography variant="h3"> ~ Creative ~</Typography>
+				</Grid>
+				<Grid xs={12} md={6}>
+					<CreativeTable rows={CreativeListOne}> </CreativeTable>
+				</Grid>
+				<Grid xs={12} md={6}>
+					<CreativeTable rows={CreativeListTwo}> </CreativeTable>
+				</Grid>
 			</Grid>
 		</ThemeProvider>
 	);

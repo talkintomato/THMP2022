@@ -14,11 +14,6 @@ export default function Info() {
 				letterSpacing: 6,
 				fontFamily: "Adam",
 			},
-			h2: {
-				letterSpacing: 6,
-				fontFamily: "Adam",
-				fontWeight: "bold",
-			},
 			h6: {
 				color: "rgb(255,255,255,0.8)",
 			},
@@ -40,7 +35,10 @@ export default function Info() {
 				paddingTop="5vh"
 				textAlign="center"
 			>
-				<Typography variant="h2"> SELECT SHOWDATE</Typography>
+				<Typography variant="h3" fontWeight="bold">
+					{" "}
+					SELECT SHOWDATE
+				</Typography>
 			</Grid>
 			<Grid container justifyContent="center">
 				<Button
@@ -104,17 +102,19 @@ export default function Info() {
 					// backgroundColor: "rgba(1,11,19,0.3)",
 					padding: "1em ",
 					margin: "5%",
+					marginBottom: "10vh",
+
 					alignItems: "center",
 					minHeight: "400px",
 					backgroundColor: "rgba(255,255,255,0.25)",
 				}}
 			>
-				<Grid container>
-					<Grid item xs={12} sm={4} height="400px">
+				<Grid container height="60vh">
+					<Grid item xs={12} sm={4}>
 						<Typography variant="h3" fontWeight="bold">
 							Location
 						</Typography>
-						<Typography variant="h4" style={{ marginTop: "2em" }}>
+						<Typography variant="h4" style={{ marginTop: "2%" }}>
 							Gateway Theatre
 						</Typography>
 						<Typography variant="caption">
@@ -123,12 +123,18 @@ export default function Info() {
 						<Button
 							onClick={Directions}
 							variant="contained"
-							style={{ marginTop: "5em" }}
+							style={{
+								marginTop: "10%",
+								marginBottom: "10%",
+								backgroundColor: "#A9A9A9",
+								color: "rgb(0,0,0)",
+								fontFamily: "Adam",
+							}}
 						>
 							Directions and Parking
 						</Button>
 					</Grid>
-					<Grid item xs={12} sm={8}>
+					<Grid item xs={12} sm={8} minHeight="30vh">
 						<Iframe
 							src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.265653393968!2d103.8166283!3d1.2840557!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x995456882b346c19!2sGateway%20Theatre!5e0!3m2!1sen!2ssg!4v1640684123318!5m2!1sen!2ssg"
 							width="100%"

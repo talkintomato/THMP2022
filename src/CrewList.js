@@ -4,7 +4,7 @@ export const itemData = [
 	{
 		img: Jingyan,
 		title: "Ulfah Irdina Bte Affandi",
-		role: "Cassie/Cass",
+		role: "Cassie/ Cass",
 	},
 	{
 		img: Jingyan,
