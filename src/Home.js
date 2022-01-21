@@ -42,7 +42,11 @@ function Home() {
 					</Typography>
 					<Button
 						variant="contained"
-						style={{ margin: "30px", backgroundColor: "#A9A9A9" }}
+						style={{
+							margin: "30px",
+							backgroundColor: "#A9A9A9",
+							color: "rgb(0,0,0)",
+						}}
 					>
 						GET TICKETS
 					</Button>
