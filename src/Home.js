@@ -36,7 +36,7 @@ function Home() {
 					padding="4vw"
 					style={{
 						textAlign: "center",
-						backgroundColor: "black",
+						backgroundColor: "transparent",
 						height: "80vh",
 						paddingTop: "4vw",
 					}}

@@ -47,7 +47,8 @@ export default function BasicTabs() {
 			<Box
 				sx={{
 					borderBottom: 1,
-					borderColor: "divider",
+					borderColor: "rgb(150,150,150)",
+					backgroundColor: "rgb(60,60,60)",
 				}}
 				display="flex"
 				justifyContent="space-around"
@@ -63,21 +64,24 @@ export default function BasicTabs() {
 					<Tab
 						label="Home"
 						style={{
-							color: "rgb(200,200,200)",
+							color: "rgb(0,0,0)",
+							fontWeight: "bold",
 						}}
 					/>
 					<Tab
 						label="Tickets & Info"
 						style={{
-							marginRight: "8em",
-							marginLeft: "8em",
-							color: "rgb(200,200,200)",
+							marginRight: "10vw",
+							marginLeft: "10vw",
+							color: "rgb(0,0,0)",
+							fontWeight: "bold",
 						}}
 					/>
 					<Tab
 						label="Cast & Creative"
 						style={{
-							color: "rgb(200,200,200)",
+							color: "rgb(0,0,0)",
+							fontWeight: "bold",
 						}}
 					/>
 				</Tabs>

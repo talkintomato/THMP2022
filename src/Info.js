@@ -81,7 +81,12 @@ export default function Info() {
 				</Typography>
 				<Typography
 					variant="h6"
-					style={{ marginTop: "2em", marginBottom: "10px" }}
+					style={{
+						marginTop: "2em",
+						marginBottom: "10px",
+						fontFamily: "calibre",
+						fontWeight: "bold",
+					}}
 				>
 					Set in Coldridge, a female penitentiary, Labyrinth Coldridge tells the
 					tale of the life of Cassie, a girl who had been following the system
@@ -104,7 +109,6 @@ export default function Info() {
 					padding: "1em ",
 					margin: "5%",
 					marginBottom: "10vh",
-
 					alignItems: "center",
 					minHeight: "400px",
 					backgroundColor: "rgba(255,255,255,0.25)",

@@ -35,6 +35,7 @@ export default function rices() {
 								style={{
 									color: "rgb(255,255,255)",
 									fontWeight: "bold",
+									fontFamily: "calibre",
 								}}
 							></TableCell>
 							<TableCell
@@ -42,19 +43,28 @@ export default function rices() {
 								style={{
 									color: "rgb(255,255,255)",
 									fontWeight: "bold",
+									fontFamily: "calibre",
 								}}
 							>
 								Individual
 							</TableCell>
 							<TableCell
 								align="left"
-								style={{ color: "rgb(255,255,255)", fontWeight: "bold" }}
+								style={{
+									color: "rgb(255,255,255)",
+									fontWeight: "bold",
+									fontFamily: "calibre",
+								}}
 							>
 								Bundle of 4
 							</TableCell>
 							<TableCell
 								align="left"
-								style={{ color: "rgb(255,255,255)", fontWeight: "bold" }}
+								style={{
+									color: "rgb(255,255,255)",
+									fontWeight: "bold",
+									fontFamily: "calibre",
+								}}
 							>
 								Bundle of 8
 							</TableCell>
@@ -71,17 +81,30 @@ export default function rices() {
 								<TableCell
 									component="th"
 									scope="row"
-									style={{ color: "rgb(255,255,255)" }}
+									style={{
+										color: "rgb(255,255,255)",
+										fontFamily: "calibre",
+										fontWeight: "bold",
+									}}
 								>
 									{row.name}
 								</TableCell>
-								<TableCell align="left" style={{ color: "rgb(255,255,255)" }}>
+								<TableCell
+									align="left"
+									style={{ color: "rgb(255,255,255)", fontFamily: "calibre" }}
+								>
 									{row.Individual}
 								</TableCell>
-								<TableCell align="left" style={{ color: "rgb(255,255,255)" }}>
+								<TableCell
+									align="left"
+									style={{ color: "rgb(255,255,255)", fontFamily: "calibre" }}
+								>
 									{row.four}
 								</TableCell>
-								<TableCell align="left" style={{ color: "rgb(255,255,255)" }}>
+								<TableCell
+									align="left"
+									style={{ color: "rgb(255,255,255)", fontFamily: "calibre" }}
+								>
 									{row.eight}
 								</TableCell>
 							</TableRow>

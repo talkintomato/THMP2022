@@ -1,0 +1,9 @@
+@font-face {
+	font-family: "Joker";
+	src: url("./fonts/Gothic-Joker.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Adam";
+	src: url("./fonts/ADAM.CG PRO.otf") format("opentype");
+}

@@ -23,9 +23,12 @@ export default function Contact() {
 			subtitle1: {
 				fontFamily: "Adam",
 			},
-			h3: {
-				fontWeight: "bold",
-				fontFamily: "Adam",
+			h2: {
+				// fontWeight: "",
+				fontFamily: "Brush Script MT",
+			},
+			h6: {
+				fontFamily: "calibre",
 			},
 		},
 	});
@@ -48,7 +51,7 @@ export default function Contact() {
 					</Grid>
 
 					<Grid item xs={12} md={8}>
-						<Typography variant="h3" paddingTop="3%">
+						<Typography variant="h2" paddingTop="3%">
 							Directors Message
 						</Typography>
 						<Typography variant="h6">
