@@ -22,7 +22,7 @@ export default function Info() {
 
 	function Directions() {
 		window.open(
-			"https://www.instagram.com/temasek.theatrette/?hl=en",
+			"https://theatre.gateway.sg/visitors-guide/getting-here-parking",
 			"_blank"
 		);
 	}
