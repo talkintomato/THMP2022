@@ -6,15 +6,14 @@ import Iframe from "react-iframe";
 export default function Info() {
 	const theme = createTheme({
 		typography: {
-			// fontFamily: ["Anton", "sans-serif"].join(","),
 			allVariants: {
-				color: "#fffBF1",
+				color: "#ffffff",
 			},
 			h1: {
 				letterSpacing: 6,
 			},
 			h6: {
-				color: "#fffBF1",
+				color: "rgb(255,255,255,0.8)",
 			},
 		},
 	});

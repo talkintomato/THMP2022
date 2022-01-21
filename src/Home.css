@@ -12,3 +12,8 @@
 	font-size: 18px;
 	text-align: center;
 }
+
+@font-face {
+	font-family: "Joker";
+	src: url("./Gothic-Joker.ttf") format("truetype");
+}

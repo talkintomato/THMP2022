@@ -1,18 +1,17 @@
 import { Button, Paper, Typography } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-
 import React from "react";
 import "./Home.css";
 
 function Home() {
 	const theme = createTheme({
 		typography: {
-			fontFamily: ["Anton", "sans-serif"].join(","),
+			// fontFamily: ["Anton", "sans-serif"].join(","),
 			allVariants: {
 				color: "rgba(174,170,175,0.6)",
 			},
-			h1: {
-				letterSpacing: 6,
+			title: {
+				fontFamily: "Joker",
 				color: "rgb(174,170,175)",
 			},
 		},
@@ -31,11 +30,7 @@ function Home() {
 					}}
 					elevation="0"
 				>
-					<Typography
-						variant="h1"
-						fontWeight="bold"
-						style={{ fontSize: "6vw" }}
-					>
+					<Typography variant="title" style={{ fontSize: "13vw" }}>
 						LABYRINTH COLDRIDGE
 					</Typography>
 					<Typography variant="h6" style={{ fontSize: "2.5vw" }}>

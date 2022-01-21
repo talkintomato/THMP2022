@@ -8,13 +8,16 @@ export default function Contact() {
 	const theme = createTheme({
 		typography: {
 			allVariants: {
-				color: "#fffBF1",
+				color: "rgba(255,255,255,1)",
 			},
 			h1: {
 				letterSpacing: 6,
 			},
 			h6: {
-				color: "#fffBF1",
+				color: "#rgba(255,255,255,1)",
+			},
+			subtitle2: {
+				color: "rgba(255,255,255,0.8)",
 			},
 		},
 	});

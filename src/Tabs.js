@@ -8,8 +8,6 @@ import Home from "./Home";
 import Info from "./Info";
 import CnC from "./CnC";
 import { useState } from "react";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
-import { orange, pink, green } from "@material-ui/core/colors";
 
 function TabPanel(props) {
 	const { children, value, index, ...other } = props;
@@ -65,8 +63,6 @@ export default function BasicTabs() {
 					<Tab
 						label="Home"
 						style={{
-							marginRight: "8em",
-							marginLeft: "8em",
 							color: "rgb(200,200,200)",
 						}}
 					/>
@@ -81,8 +77,6 @@ export default function BasicTabs() {
 					<Tab
 						label="Cast & Creative"
 						style={{
-							marginRight: "8em",
-							marginLeft: "8em",
 							color: "rgb(200,200,200)",
 						}}
 					/>
