@@ -6,14 +6,14 @@ import "./Home.css";
 function Home() {
 	const theme = createTheme({
 		typography: {
-			// fontFamily: ["Anton", "sans-serif"].join(","),
 			allVariants: {
 				color: "rgba(174,170,175,0.6)",
 			},
 			title: {
 				fontFamily: "Joker",
-				color: "rgb(174,170,175)",
+				color: "rgb(200,200,200)",
 			},
+			subtitle1: { color: "rgba(200,200,200,0.8)" },
 		},
 	});
 
@@ -33,8 +33,8 @@ function Home() {
 					<Typography variant="title" style={{ fontSize: "13vw" }}>
 						LABYRINTH COLDRIDGE
 					</Typography>
-					<Typography variant="h6" style={{ fontSize: "2.5vw" }}>
-						A Temasek THeatrette Original • 23, 24 Feburary 2022
+					<Typography style={{ fontSize: "2.5vw" }}>
+						A Temasek THeatrette Original • 23, 24 FEB 2022
 					</Typography>
 					<Button
 						variant="contained"
@@ -44,7 +44,7 @@ function Home() {
 							color: "rgb(0,0,0)",
 						}}
 					>
-						GET TICKETS
+						TICKETS
 					</Button>
 				</Paper>
 			</>

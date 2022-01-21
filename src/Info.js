@@ -2,6 +2,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { Button, Card, Grid, Typography, Paper } from "@mui/material";
 import React from "react";
 import Iframe from "react-iframe";
+import Prices from "./Prices.js";
 
 export default function Info() {
 	const theme = createTheme({
@@ -52,7 +53,12 @@ export default function Info() {
 					life you are currently living is the one you truly wish to pursue.
 				</Typography>
 			</Paper>
-
+			<Grid padding="1em" margin="5%">
+				<Typography variant="h3" fontWeight="bold">
+					Tickets
+				</Typography>
+				<Prices></Prices>
+			</Grid>
 			<Card
 				style={{
 					// backgroundColor: "rgba(1,11,19,0.3)",
