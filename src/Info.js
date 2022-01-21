@@ -1,9 +1,24 @@
+import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { Button, Card, Grid, Typography, Paper } from "@mui/material";
 import React from "react";
 import Iframe from "react-iframe";
-import "./Info.css";
 
 export default function Info() {
+	const theme = createTheme({
+		typography: {
+			// fontFamily: ["Anton", "sans-serif"].join(","),
+			allVariants: {
+				color: "#fffBF1",
+			},
+			h1: {
+				letterSpacing: 6,
+			},
+			h6: {
+				color: "#fffBF1",
+			},
+		},
+	});
+
 	function Directions() {
 		window.open(
 			"https://www.instagram.com/temasek.theatrette/?hl=en",
@@ -12,7 +27,7 @@ export default function Info() {
 	}
 
 	return (
-		<>
+		<ThemeProvider theme={theme}>
 			<Paper
 				elevation={0}
 				style={{
@@ -46,7 +61,7 @@ export default function Info() {
 					margin: "5%",
 					alignItems: "center",
 					minHeight: "400px",
-					backgroundColor: "rgba(255,255,255,0.4)",
+					backgroundColor: "rgba(255,255,255,0.25)",
 				}}
 			>
 				<Grid container>
@@ -55,7 +70,7 @@ export default function Info() {
 							Location
 						</Typography>
 						<Typography variant="h4" style={{ marginTop: "2em" }}>
-							GateWay Theatre
+							Gateway Theatre
 						</Typography>
 						<Typography variant="caption">
 							3615 Jalan Bukit Merah, Singapore 159461
@@ -79,6 +94,6 @@ export default function Info() {
 					</Grid>
 				</Grid>
 			</Card>
-		</>
+		</ThemeProvider>
 	);
 }

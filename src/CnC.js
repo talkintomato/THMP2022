@@ -1,12 +1,39 @@
 import React from "react";
-import { Grid, Typography } from "@mui/material";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { Grid, Typography, Paper } from "@mui/material";
 
 export default function Contact() {
+	const theme = createTheme({
+		typography: {
+			allVariants: {
+				color: "#fffBF1",
+			},
+			h1: {
+				letterSpacing: 6,
+			},
+			h6: {
+				color: "#fffBF1",
+			},
+		},
+	});
+
 	return (
-		<>
+		<ThemeProvider theme={theme}>
 			<Typography variant="h2" align="center" padding="30px" fontWeight="bold">
 				Cast and Creative
 			</Typography>
+			<Grid container padding="15px">
+				<Typography>Directors message</Typography>
+				<Typography>
+					Director’s Message: Labyrinth Coldridge is a Temasek Hall musical,
+					built completely from scratch and only made possible through the
+					tireless efforts and collaboration with our talented cast members and
+					production crew. A product of endless nights of relentless meetings
+					and practices, Labyrinth Coldridge has braved through the COVID 19
+					pandemic to come to you this Feberuary. Live from Gateway Theatre,
+					Labyrinth Coldridge looks forward to seeing you on 23,24 Feberuary.
+				</Typography>
+			</Grid>
 			<Grid
 				container
 				justifyItems="center"
@@ -40,7 +67,7 @@ export default function Contact() {
 					</Grid>
 				))}
 			</Grid>
-		</>
+		</ThemeProvider>
 	);
 }
 
