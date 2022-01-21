@@ -11,7 +11,7 @@ export default function Info() {
 				color: "#ffffff",
 			},
 			h3: {
-				letterSpacing: 6,
+				letterSpacing: 2,
 				fontFamily: "Adam",
 			},
 			h6: {
@@ -73,6 +73,7 @@ export default function Info() {
 					margin: "5%",
 					alignItems: "center",
 					backgroundColor: "transparent",
+					textAlign: "center",
 				}}
 			>
 				<Typography variant="h3" fontWeight="bold">
@@ -91,7 +92,7 @@ export default function Info() {
 					life you are currently living is the one you truly wish to pursue.
 				</Typography>
 			</Paper>
-			<Grid padding="1em" margin="5%">
+			<Grid padding="1em" margin="5%" textAlign="center">
 				<Typography variant="h3" fontWeight="bold">
 					Tickets
 				</Typography>
@@ -117,7 +118,7 @@ export default function Info() {
 						<Typography variant="h4" style={{ marginTop: "2%" }}>
 							Gateway Theatre
 						</Typography>
-						<Typography variant="caption">
+						<Typography variant="h6">
 							3615 Jalan Bukit Merah, Singapore 159461
 						</Typography>
 						<Button
@@ -130,6 +131,7 @@ export default function Info() {
 								color: "rgb(0,0,0)",
 								fontFamily: "Adam",
 							}}
+							xs={12}
 						>
 							Directions and Parking
 						</Button>

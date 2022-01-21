@@ -77,7 +77,7 @@ export default function Contact() {
 				}}
 			>
 				<Grid item xs={12} sm={12} textAlign="center">
-					<Typography variant="h3"> ~ CAST ~</Typography>
+					<Typography variant="h3"> -CAST-</Typography>
 				</Grid>
 				{itemData.map((item) => (
 					<Grid item key={item.img} xs={6} sm={3}>
@@ -112,7 +112,7 @@ export default function Contact() {
 				}}
 			>
 				<Grid item xs={12} sm={12} textAlign="center">
-					<Typography variant="h3"> ~ Creative ~</Typography>
+					<Typography variant="h3"> -Creative-</Typography>
 				</Grid>
 				<Grid xs={12} md={6}>
 					<CreativeTable rows={CreativeListOne}> </CreativeTable>
