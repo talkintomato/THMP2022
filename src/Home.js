@@ -24,6 +24,7 @@ function Home() {
 				fontFamily: "Joker",
 				color: "rgb(200,200,200)",
 				fontSize: "14vw",
+				lineHeight: "90%",
 			},
 			subtitle1: { color: "rgba(200,200,200,0.8)" },
 			fontFamily: "Adam",
@@ -42,17 +43,20 @@ function Home() {
 					elevation="0"
 				>
 					<Typography variant="title">LABYRINTH COLDRIDGE</Typography>
-					<Grid container justifyContent="center">
-						<Grid Item xs={12} md={9}>
+					<Grid container>
+						<Grid Item xs={12} md={8}>
 							<Grid Container>
-								<Typography style={{ fontSize: "3vw" }} paddingBottom="1em">
-									A Temasek THeatrette Original
-								</Typography>
+								<Grid Item>
+									<Typography style={{ fontSize: "3.5vh", marginTop: "4%" }}>
+										A Temasek THeatrette Original
+									</Typography>
+								</Grid>
 								<Grid
 									container
 									justifyContent="center"
 									spacing="30"
-									marginBottom="10%"
+									marginTop="0%"
+									marginBottom="4%"
 								>
 									<Grid item>
 										<Button
@@ -86,7 +90,7 @@ function Home() {
 								src={frontCover}
 								alt={"frontCover"}
 								loading="lazy"
-								width="100%"
+								width="80%"
 								marginLeft="-200px"
 							/>
 						</Grid>
