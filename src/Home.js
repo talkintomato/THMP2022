@@ -5,15 +5,15 @@ import "./Home.css";
 import frontCover from "./LABYRINTHCOLDRIDGE_white.png";
 
 function Home() {
-	const breakpoints = {
-		values: {
-			xs: 0,
-			sm: 0, // Phone
-			md: 768, // Tablet/Laptop
-			lg: 1500, // Desktop
-			xl: 2000,
-		},
-	};
+	// const breakpoints = {
+	// 	values: {
+	// 		xs: 0,
+	// 		sm: 0, // Phone
+	// 		md: 768, // Tablet/Laptop
+	// 		lg: 1500, // Desktop
+	// 		xl: 2000,
+	// 	},
+	// };
 
 	const theme = createTheme({
 		typography: {
@@ -67,7 +67,7 @@ function Home() {
 												color: "rgb(0,0,0)",
 											}}
 										>
-											23 Feb 2022 TICKETS
+											GET 23 Feb 2022 TICKETS
 										</Button>
 									</Grid>
 									<Grid item>
@@ -79,7 +79,7 @@ function Home() {
 												color: "rgb(0,0,0)",
 											}}
 										>
-											24 Feb 2022 TICKETS
+											GET 24 Feb 2022 TICKETS
 										</Button>
 									</Grid>
 								</Grid>

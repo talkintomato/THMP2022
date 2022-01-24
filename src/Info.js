@@ -39,7 +39,7 @@ export default function Info() {
 					>
 						<Typography variant="h3" fontWeight="bold">
 							{" "}
-							SELECT SHOWDATE
+							SHOWDATES
 						</Typography>
 					</Grid>
 					<Grid container justifyContent="center">
@@ -53,7 +53,7 @@ export default function Info() {
 								fontFamily: "Adam",
 							}}
 						>
-							23 Feb 2022 TICKETS
+							GET 23 Feb 2022 TICKETS
 						</Button>
 						<Button
 							variant="contained"
@@ -65,7 +65,7 @@ export default function Info() {
 								fontFamily: "Adam",
 							}}
 						>
-							24 Feb 2022 TICKETS
+							GET 24 Feb 2022 TICKETS
 						</Button>
 					</Grid>
 					<Paper
@@ -117,7 +117,7 @@ export default function Info() {
 							backgroundColor: "rgba(255,255,255,0.25)",
 						}}
 					>
-						<Grid container height="60vh">
+						<Grid container minheight="60vh">
 							<Grid item xs={12} sm={4}>
 								<Typography variant="h3" fontWeight="bold">
 									Location
@@ -143,7 +143,7 @@ export default function Info() {
 									Directions and Parking
 								</Button>
 							</Grid>
-							<Grid item xs={12} sm={8} minHeight="30vh">
+							<Grid item xs={12} sm={8} minHeight="45vh">
 								<Iframe
 									src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.265653393968!2d103.8166283!3d1.2840557!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x995456882b346c19!2sGateway%20Theatre!5e0!3m2!1sen!2ssg!4v1640684123318!5m2!1sen!2ssg"
 									width="100%"
