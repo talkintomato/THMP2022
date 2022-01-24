@@ -64,7 +64,7 @@ export default function BasicTabs() {
 					<Tab
 						label="Home"
 						style={{
-							color: "rgb(0,0,0)",
+							color: "rgb(255,255,255)",
 							fontWeight: "bold",
 						}}
 					/>
@@ -73,14 +73,14 @@ export default function BasicTabs() {
 						style={{
 							marginRight: "10vw",
 							marginLeft: "10vw",
-							color: "rgb(0,0,0)",
+							color: "rgb(255,255,255)",
 							fontWeight: "bold",
 						}}
 					/>
 					<Tab
 						label="Cast & Creative"
 						style={{
-							color: "rgb(0,0,0)",
+							color: "rgb(255,255,255)",
 							fontWeight: "bold",
 						}}
 					/>

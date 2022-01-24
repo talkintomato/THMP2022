@@ -5,7 +5,13 @@ const CreativeListTwo = [
 	createData("Lighting", "Tan Hui Wen Clara"),
 	createData(" ", "Chua Jieyang"),
 	createData("Sound", "Ng Qi Lin"),
+	createData(" ", "Tan Jingwen Andrea"),
+	createData("Sets Head", "Nicole Chong"),
+	// createData("Sets team", ""),
+	// createData(" ", ""),
+	// createData(" ", ""),
 	createData("Stagehands", "Megan Sophie Lau"),
+	createData(" ", "Liew Siew Kit"),
 	createData(" ", "Tan Wei Jie Sean"),
 	createData(" ", "Lee Zheng Yi Ernest"),
 	createData(" ", "Therese Hope Chua Anak Saa"),
@@ -15,6 +21,14 @@ const CreativeListTwo = [
 	createData(" ", "Tan Wei Xuan"),
 	createData(" ", "Muhammad Zafranshah Bin Mahadhir"),
 	createData(" ", "Javin Chan Zhi Rui"),
+	createData("Photographers", "Tay Ying Jun Eugene"),
+	createData(" ", "Wee Sze Chyi Natasha"),
+	createData(" ", "Wong Kwon Fai Keane"),
+	createData(" ", "Navaraj Rajendran"),
+	createData(" ", "Zhang Hanyu"),
+	createData("Videographers", "Navaraj Rajendran"),
+	createData(" ", "Nicholas Arlin Halim"),
+	// createData(" ", ""),
 ];
 
 function createData(role, name) {

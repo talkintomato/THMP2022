@@ -24,8 +24,7 @@ export default function Contact() {
 				fontFamily: "Adam",
 			},
 			h2: {
-				// fontWeight: "",
-				fontFamily: "Brush Script MT",
+				fontFamily: "Adam",
 			},
 			h6: {
 				fontFamily: "calibre",
@@ -52,7 +51,7 @@ export default function Contact() {
 
 					<Grid item xs={12} md={8}>
 						<Typography variant="h2" paddingTop="3%">
-							Directors Message
+							Director's Message
 						</Typography>
 						<Typography variant="h6">
 							Labyrinth Coldridge is a Temasek Hall musical, built completely

@@ -2,6 +2,7 @@ import { Button, Paper, Typography, Grid } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import React from "react";
 import "./Home.css";
+import frontCover from "./LABYRINTHCOLDRIDGE_white.png";
 
 function Home() {
 	const breakpoints = {
@@ -22,7 +23,7 @@ function Home() {
 			title: {
 				fontFamily: "Joker",
 				color: "rgb(200,200,200)",
-				fontSize: "15vw",
+				fontSize: "14vw",
 			},
 			subtitle1: { color: "rgba(200,200,200,0.8)" },
 			fontFamily: "Adam",
@@ -37,40 +38,57 @@ function Home() {
 					style={{
 						textAlign: "center",
 						backgroundColor: "transparent",
-						height: "80vh",
-						paddingTop: "4vw",
 					}}
 					elevation="0"
 				>
 					<Typography variant="title">LABYRINTH COLDRIDGE</Typography>
-					<Typography style={{ fontSize: "4vw" }} paddingBottom="1em">
-						A Temasek THeatrette Original
-					</Typography>
-
-					<Grid container justifyContent="center" spacing="30">
-						<Grid item>
-							<Button
-								variant="contained"
-								size="medium"
-								style={{
-									backgroundColor: "#A9A9A9",
-									color: "rgb(0,0,0)",
-								}}
-							>
-								23 Feb 2022 TICKETS
-							</Button>
+					<Grid container justifyContent="center">
+						<Grid Item xs={12} md={9}>
+							<Grid Container>
+								<Typography style={{ fontSize: "3vw" }} paddingBottom="1em">
+									A Temasek THeatrette Original
+								</Typography>
+								<Grid
+									container
+									justifyContent="center"
+									spacing="30"
+									marginBottom="10%"
+								>
+									<Grid item>
+										<Button
+											variant="contained"
+											size="large"
+											style={{
+												backgroundColor: "#A9A9A9",
+												color: "rgb(0,0,0)",
+											}}
+										>
+											23 Feb 2022 TICKETS
+										</Button>
+									</Grid>
+									<Grid item>
+										<Button
+											variant="contained"
+											size="large"
+											style={{
+												backgroundColor: "#A9A9A9",
+												color: "rgb(0,0,0)",
+											}}
+										>
+											24 Feb 2022 TICKETS
+										</Button>
+									</Grid>
+								</Grid>
+							</Grid>
 						</Grid>
-						<Grid item>
-							<Button
-								variant="contained"
-								size="medium"
-								style={{
-									backgroundColor: "#A9A9A9",
-									color: "rgb(0,0,0)",
-								}}
-							>
-								24 Feb 2022 TICKETS
-							</Button>
+						<Grid Item xs={12} md={3}>
+							<img
+								src={frontCover}
+								alt={"frontCover"}
+								loading="lazy"
+								width="100%"
+								marginLeft="-200px"
+							/>
 						</Grid>
 					</Grid>
 				</Paper>
