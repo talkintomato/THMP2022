@@ -12,6 +12,7 @@ export default function Contact() {
 		typography: {
 			allVariants: {
 				color: "rgba(255,255,255,1)",
+				fontFamily: "Adam",
 			},
 			h1: {
 				letterSpacing: 6,
@@ -26,9 +27,7 @@ export default function Contact() {
 			h2: {
 				fontFamily: "Adam",
 			},
-			h6: {
-				fontFamily: "calibre",
-			},
+			h6: {},
 		},
 	});
 
