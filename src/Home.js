@@ -17,13 +17,13 @@ function Home() {
 
 	function redirectDayOne() {
 		window.open(
-			"https://www.instagram.com/temasek.theatrette/?hl=en",
+			"https://nusfastpay.nus.edu.sg/thmp22labyrinthcoldrige23feb",
 			"_blank"
 		);
 	}
 	function redirectDayTwo() {
 		window.open(
-			"https://www.instagram.com/temasek.theatrette/?hl=en",
+			"https://nusfastpay.nus.edu.sg/thmp22labyrinthcoldrige24feb",
 			"_blank"
 		);
 	}
@@ -58,8 +58,8 @@ function Home() {
 				>
 					<Typography variant="title">LABYRINTH COLDRIDGE</Typography>
 					<Grid container>
-						<Grid Item xs={12} md={8}>
-							<Grid Container>
+						<Grid xs={12} md={8}>
+							<Grid container justifyContent="center">
 								<Grid Item>
 									<Typography style={{ fontSize: "3.5vh", marginTop: "4%" }}>
 										A Temasek THeatrette Original

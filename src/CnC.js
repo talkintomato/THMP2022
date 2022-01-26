@@ -38,7 +38,7 @@ export default function Contact() {
 				Cast & Creative
 			</Typography> */}
 			<Grid container justifyContent="center">
-				<Grid Item xs={12} md={10}>
+				<Grid Item xs={12} md={10} lg={8}>
 					<Card
 						style={{
 							backgroundColor: "rgba(255,255,255,0.25)",
@@ -46,17 +46,20 @@ export default function Contact() {
 						}}
 					>
 						<Grid container spacing={6}>
-							<Grid item xs={12} md={4}>
+							<Grid item xs={12} md={4} lg={4}>
 								<img
 									src={director}
 									alt={"director"}
 									loading="lazy"
 									width="100%"
+									minheight="100%"
 								/>
 							</Grid>
 
-							<Grid item xs={12} md={8}>
-								<Typography variant="h4">Director's Message</Typography>
+							<Grid item xs={12} md={8} lg={8}>
+								<Typography paddingBottom="2vh" variant="h4">
+									Director's Message
+								</Typography>
 								<Typography variant="body2">
 									The idea for Labyrinth Coldrdige stemmed from the pervasive
 									issue that our generation of youths face. Themed around
