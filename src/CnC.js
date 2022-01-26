@@ -38,7 +38,7 @@ export default function Contact() {
 				Cast & Creative
 			</Typography> */}
 			<Grid container justifyContent="center">
-				<Grid Item xs={12} md={8}>
+				<Grid Item xs={12} md={10}>
 					<Card
 						style={{
 							backgroundColor: "rgba(255,255,255,0.25)",
