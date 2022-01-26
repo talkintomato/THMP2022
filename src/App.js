@@ -4,7 +4,6 @@ import "./styles.css";
 import Tabs from "./Tabs";
 import "./Footer.css";
 import InstagramIcon from "@material-ui/icons/Instagram";
-import frontCover from "./LABYRINTHCOLDRIDGE_text.png";
 
 export default function App() {
 	// const [load, setLoad] = useState(false);
@@ -32,7 +31,7 @@ export default function App() {
 
 	return (
 		<>
-			<div style={{ backgroundColor: "black" }}>
+			<div style={{ backgroundColor: "black", height: "100%" }}>
 				<Tabs></Tabs>
 				<div className="footer">
 					<div>

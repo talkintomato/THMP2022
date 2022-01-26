@@ -39,6 +39,7 @@ function Home() {
 					style={{
 						textAlign: "center",
 						backgroundColor: "transparent",
+						minHeight: "100vh",
 					}}
 					elevation="0"
 				>

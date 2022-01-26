@@ -26,6 +26,7 @@ const theme = createTheme({
 export default function rices() {
 	return (
 		<ThemeProvider theme={theme}>
+			
 			<Typography> Tickets </Typography>
 			<TableContainer>
 				<Table sx={{ minWidth: 400 }} aria-label="Ticket Prices">
