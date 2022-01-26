@@ -15,6 +15,19 @@ function Home() {
 	// 	},
 	// };
 
+	function redirectDayOne() {
+		window.open(
+			"https://www.instagram.com/temasek.theatrette/?hl=en",
+			"_blank"
+		);
+	}
+	function redirectDayTwo() {
+		window.open(
+			"https://www.instagram.com/temasek.theatrette/?hl=en",
+			"_blank"
+		);
+	}
+
 	const theme = createTheme({
 		typography: {
 			allVariants: {
@@ -67,6 +80,7 @@ function Home() {
 												backgroundColor: "#A9A9A9",
 												color: "rgb(0,0,0)",
 											}}
+											onClick={redirectDayOne}
 										>
 											GET 23 Feb 2022 TICKETS
 										</Button>
@@ -79,6 +93,7 @@ function Home() {
 												backgroundColor: "#A9A9A9",
 												color: "rgb(0,0,0)",
 											}}
+											onClick={redirectDayTwo}
 										>
 											GET 24 Feb 2022 TICKETS
 										</Button>

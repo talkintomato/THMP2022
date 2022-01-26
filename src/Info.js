@@ -27,6 +27,19 @@ export default function Info() {
 		);
 	}
 
+	function redirectDayOne() {
+		window.open(
+			"https://www.instagram.com/temasek.theatrette/?hl=en",
+			"_blank"
+		);
+	}
+	function redirectDayTwo() {
+		window.open(
+			"https://www.instagram.com/temasek.theatrette/?hl=en",
+			"_blank"
+		);
+	}
+
 	return (
 		<ThemeProvider theme={theme}>
 			<Grid container justifyContent="center">
@@ -64,6 +77,7 @@ export default function Info() {
 								color: "rgb(0,0,0)",
 								fontFamily: "Adam",
 							}}
+							onClick={redirectDayOne}
 						>
 							GET 24 Feb 2022 TICKETS
 						</Button>
@@ -77,6 +91,7 @@ export default function Info() {
 							backgroundColor: "transparent",
 							textAlign: "center",
 						}}
+						onClick={redirectDayTwo}
 					>
 						<Typography variant="h3" fontWeight="bold">
 							Sypnopsis

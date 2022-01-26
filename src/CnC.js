@@ -24,11 +24,11 @@ export default function Contact() {
 			subtitle1: {
 				fontFamily: "Adam",
 			},
-			h3: {
+			h4: {
 				fontFamily: "Adam",
 				fontWeight: "bold",
 			},
-			h6: {},
+			body2: {},
 		},
 	});
 
@@ -42,8 +42,7 @@ export default function Contact() {
 					<Card
 						style={{
 							backgroundColor: "rgba(255,255,255,0.25)",
-							margin: "5%",
-							padding: "10px",
+							padding: "2%",
 						}}
 					>
 						<Grid container spacing={6}>
@@ -57,20 +56,36 @@ export default function Contact() {
 							</Grid>
 
 							<Grid item xs={12} md={8}>
-								<Typography variant="h3" paddingTop="3%">
-									Director's Message
-								</Typography>
-								<Typography variant="h6">
-									Labyrinth Coldridge is a Temasek Hall musical, built
-									completely from scratch and only made possible through the
-									tireless efforts and collaboration with our talented cast
-									members and production crew. A product of endless nights of
-									relentless meetings and practices, Labyrinth Coldridge has
-									braved through the COVID 19 pandemic to come to you this
-									Feberuary.
+								<Typography variant="h4">Director's Message</Typography>
+								<Typography variant="body2">
+									The idea for Labyrinth Coldrdige stemmed from the pervasive
+									issue that our generation of youths face. Themed around
+									introspection, friendship, social privilege and finding
+									yourself, Labyrinth Coldridge hopes to inspire you to question
+									if the life you are currently living is the one you truly wish
+									to pursue, to get you to live your best life.
+									<br /> <br />
+									Labyrinth Coldridge is set in a female prison and follows the
+									journey of Cass, an incarcerated young woman who is sentenced
+									for embezzlement. Cass finds herself lost in the underground
+									drug trade and thus caught in an endless maze of
+									introspection. In the unlikeliest of places, she is challenged
+									to forge her own path. Will she succumb to the pressures of
+									prison? <br />
 									<br />
-									<br /> Live from Gateway Theatre, Labyrinth Coldridge looks
-									forward to seeing you on 23, 24 February.
+									On a personal note, it has been an extremely tiring but
+									enjoyable journey. Being faced with the constraints of
+									COVID-19 and needing to juggle the weight of my school
+									commitments has not been an easy feat. However, working
+									alongside this amazingly capable cast and production crew has
+									made this experience nothing short of enjoyable.
+									<br /> <br />
+									The production was only made possible through the collective
+									efforts of our talented cast, production team and crew. A huge
+									thanks to Jia Ning, Jermayne Yeo, Edward Loke, Gayle Tan,
+									Darin Loh, Calysta Chng, Shiyun and Sophie Lau. Finally, thank
+									you, the audience, for supporting Labyrinth Coldrdige. We hope
+									that you will enjoy the musical as much as we do producing it!
 									<br />
 									<br />- Noah Teo
 								</Typography>
