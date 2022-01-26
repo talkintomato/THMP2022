@@ -1,8 +1,8 @@
 import React from "react";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { Grid, Typography, Card } from "@mui/material";
-import { itemData } from "./CrewList";
-import director from "./THEATRE_5986.jpg";
+import { itemData } from "./data/CrewList";
+import director from "./CastPics/Noah.jpg";
 import CreativeTable from "./CreativeTable.js";
 import CreativeListOne from "./data/CreativeListOne.js";
 import CreativeListTwo from "./data/CreativeListTwo.js";
@@ -28,15 +28,12 @@ export default function Contact() {
 				fontFamily: "Adam",
 				fontWeight: "bold",
 			},
-			body2: {},
+			body1: { fontFamily: "Calibre" },
 		},
 	});
 
 	return (
 		<ThemeProvider theme={theme}>
-			{/* <Typography variant="h2" align="center" padding="30px" fontWeight="bold">
-				Cast & Creative
-			</Typography> */}
 			<Grid container justifyContent="center">
 				<Grid Item xs={12} md={10} lg={8}>
 					<Card
@@ -60,7 +57,7 @@ export default function Contact() {
 								<Typography paddingBottom="2vh" variant="h4">
 									Director's Message
 								</Typography>
-								<Typography variant="body2">
+								<Typography variant="body1">
 									The idea for Labyrinth Coldrdige stemmed from the pervasive
 									issue that our generation of youths face. Themed around
 									introspection, friendship, social privilege and finding

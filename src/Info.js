@@ -43,7 +43,7 @@ export default function Info() {
 	return (
 		<ThemeProvider theme={theme}>
 			<Grid container justifyContent="center">
-				<Grid Item md={10} xs={13} lg={6}>
+				<Grid Item md={10} xs={13}>
 					<Grid
 						container
 						justifyContent="center"
@@ -105,14 +105,12 @@ export default function Info() {
 								fontWeight: "bold",
 							}}
 						>
-							Set in Coldridge, a female penitentiary, Labyrinth Coldridge tells
-							the tale of the life of Cassie, a girl who had been following the
-							system her entire life. As she slowly starts coming to terms with
-							the meaningless life that she has been sucked into, she finds
-							herself in a state of loss. Themed around introspection,
-							friendship and finding yourself, Labyrinth Coldridge hopes to keep
-							you questioning if the life you are currently living is the one
-							you truly wish to pursue.
+							Labyrinth Coldridge is set in a female prison and follows the
+							journey of Cass, an incarcerated young woman who is sentenced for
+							embezzlement. Cass finds herself lost in the underground drug
+							trade and thus caught in an endless maze of introspection. In the
+							unlikeliest of places, she is challenged to forge her own path.
+							Will she succumb to the pressures of prison?
 						</Typography>
 					</Paper>
 					<Grid padding="1em" margin="5%" textAlign="center">

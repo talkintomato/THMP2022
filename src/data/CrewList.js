@@ -1,19 +1,19 @@
-import Jingyan from "./CastPics/Jingyan.jpeg";
-import Charis from "./CastPics/Charis.jpeg";
-import Ester from "./CastPics/Ester.jpeg";
-import Josh from "./CastPics/josh.jpeg";
-import Lennon from "./CastPics/lennon.jpeg";
-import Maeyee from "./CastPics/Maeyee.jpeg";
-import Monica from "./CastPics/monica.jpeg";
-import Rachel from "./CastPics/rachel.jpeg";
-import Sam from "./CastPics/Sam.jpeg";
-import Ulfah from "./CastPics/Ulfah.jpeg";
-import Yujie from "./CastPics/Yujie.jpeg";
-import Tanya from "./CastPics/Tanya.jpeg";
-import Ollie from "./CastPics/Ollie.jpg";
-import Hrit from "./CastPics/Hrit.jpeg";
-import Janelle from "./CastPics/Janelle.jpeg";
-import Jonas from "./CastPics/Jonas.jpeg";
+import Jingyan from "../CastPics/Jingyan.jpeg";
+import Charis from "../CastPics/Charis.jpeg";
+import Ester from "../CastPics/Ester.jpeg";
+import Josh from "../CastPics/josh.jpeg";
+import Lennon from "../CastPics/lennon.jpeg";
+import Maeyee from "../CastPics/Maeyee.jpeg";
+import Monica from "../CastPics/monica.jpeg";
+import Rachel from "../CastPics/rachel.jpeg";
+import Sam from "../CastPics/Sam.jpeg";
+import Ulfah from "../CastPics/Ulfah.jpeg";
+import Yujie from "../CastPics/Yujie.png";
+import Tanya from "../CastPics/Tanya.jpeg";
+import Ollie from "../CastPics/Ollie.jpg";
+import Hrit from "../CastPics/Hrit.jpeg";
+import Janelle from "../CastPics/Janelle.jpeg";
+import Jonas from "../CastPics/Jonas.jpeg";
 
 export const itemData = [
 	{
