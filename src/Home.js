@@ -111,14 +111,14 @@ function Home() {
 							/>
 						</Grid>
 					</Grid>
-					<Grid
+					{/* <Grid
 						container
 						justifyContent="center"
 						paddingBottom="20%"
 						paddingTop="5%"
 					>
 						<Grid item md={8} minHeight="30vw">
-							{/* <iframe
+							<iframe
 								width="100%"
 								height="100%"
 								src="https://www.youtube.com/embed/dQw4w9WgXcQ"
@@ -126,9 +126,9 @@ function Home() {
 								frameborder="0"
 								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 								allowfullscreen
-							></iframe> */}
+							></iframe>
 						</Grid>
-					</Grid>
+					</Grid> */}
 				</Paper>
 			</>
 		</ThemeProvider>
