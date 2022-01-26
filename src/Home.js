@@ -114,13 +114,13 @@ function Home() {
 					<Grid
 						container
 						justifyContent="center"
-						paddingBottom="20%"
+						paddingBottom="25%"
 						paddingTop="5%"
 					>
-						<Grid item md={8} minHeight="30vw">
+						<Grid item sm={12} md={8} minHeight="30vw">
 							<iframe
 								width="100%"
-								height="100%"
+								height="130%"
 								src="https://www.youtube.com/embed/4f4jTTN6Y10"
 								title="YouTube video player"
 								frameborder="0"
