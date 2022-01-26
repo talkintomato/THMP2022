@@ -66,6 +66,7 @@ export default function BasicTabs() {
 						style={{
 							color: "rgb(255,255,255)",
 							fontWeight: "bold",
+							fontFamily: "Adam",
 						}}
 					/>
 					<Tab
@@ -75,6 +76,7 @@ export default function BasicTabs() {
 							marginLeft: "10vw",
 							color: "rgb(255,255,255)",
 							fontWeight: "bold",
+							fontFamily: "Adam",
 						}}
 					/>
 					<Tab
@@ -82,6 +84,7 @@ export default function BasicTabs() {
 						style={{
 							color: "rgb(255,255,255)",
 							fontWeight: "bold",
+							fontFamily: "Adam",
 						}}
 					/>
 				</Tabs>

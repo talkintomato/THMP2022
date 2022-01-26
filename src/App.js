@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Grid } from "@mui/material";
+import { Button, Grid, Typography } from "@mui/material";
 import "./styles.css";
 import Tabs from "./Tabs";
 import "./Footer.css";
@@ -31,20 +31,26 @@ export default function App() {
 
 	return (
 		<>
-			<div style={{ backgroundColor: "black", height: "100%" }}>
+			<Grid container style={{ backgroundColor: "black", height: "100%" }}>
 				<Tabs></Tabs>
-				<div className="footer">
-					<div>
+				<Grid className="footer" paddingBottom="6vh">
+					<Button>
 						<InstagramIcon
 							className="largeIcon inline-block-child"
 							onClick={redirectInsta}
+							style={{ color: "white" }}
 						></InstagramIcon>
-						<p className="inline-block-child" onClick={redirectInsta}>
+						<Typography
+							variant="body"
+							style={{ color: "white" }}
+							className="inline-block-child"
+							onClick={redirectInsta}
+						>
 							Temasek THeatrette
-						</p>
-					</div>
-				</div>
-			</div>
+						</Typography>
+					</Button>
+				</Grid>
+			</Grid>
 		</>
 	);
 }
