@@ -5,16 +5,6 @@ import "./Home.css";
 import frontCover from "./LABYRINTHCOLDRIDGE_white.png";
 
 function Home() {
-	// const breakpoints = {
-	// 	values: {
-	// 		xs: 0,
-	// 		sm: 0, // Phone
-	// 		md: 768, // Tablet/Laptop
-	// 		lg: 1500, // Desktop
-	// 		xl: 2000,
-	// 	},
-	// };
-
 	function redirectDayOne() {
 		window.open(
 			"https://nusfastpay.nus.edu.sg/thmp22labyrinthcoldrige23feb",

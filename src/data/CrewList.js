@@ -8,7 +8,7 @@ import Monica from "../CastPics/monica.jpeg";
 import Rachel from "../CastPics/rachel.jpeg";
 import Sam from "../CastPics/Sam.jpeg";
 import Ulfah from "../CastPics/Ulfah.jpeg";
-import Yujie from "../CastPics/Yujie.png";
+import Yujie from "../CastPics/Yujie.jpg";
 import Tanya from "../CastPics/Tanya.jpeg";
 import Ollie from "../CastPics/Ollie.jpg";
 import Hrit from "../CastPics/Hrit.jpeg";
