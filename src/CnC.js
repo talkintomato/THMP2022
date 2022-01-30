@@ -58,7 +58,7 @@ export default function Contact() {
 									Director's Message
 								</Typography>
 								<Typography variant="body1">
-									The idea for Labyrinth Coldrdige stemmed from the pervasive
+									The idea for Labyrinth Coldridge stemmed from the pervasive
 									issue that our generation of youths face. Themed around
 									introspection, friendship, social privilege and finding
 									yourself, Labyrinth Coldridge hopes to inspire you to question
