@@ -58,20 +58,27 @@ export default function Contact() {
 									Director's Message
 								</Typography>
 								<Typography variant="body1">
-									The idea for Labyrinth Coldridge stemmed from the pervasive
+									The idea for Labyrinth Coldrdige stemmed from the pervasive
 									issue that our generation of youths face. Themed around
 									introspection, friendship, social privilege and finding
 									yourself, Labyrinth Coldridge hopes to inspire you to question
 									if the life you are currently living is the one you truly wish
 									to pursue, to get you to live your best life.
 									<br /> <br />
-									Labyrinth Coldridge is set in a female prison and follows the
-									journey of Cass, an incarcerated young woman who is sentenced
-									for embezzlement. Cass finds herself lost in the underground
-									drug trade and thus caught in an endless maze of
-									introspection. In the unlikeliest of places, she is challenged
-									to forge her own path. Will she succumb to the pressures of
-									prison? <br />
+									The musical was inspired by my perception of finding purpose
+									in Singapore life. When you do not know your purpose in this
+									place, you become spineless and will subconsciously cause harm
+									and hurt to both others and yourself. However, we often get
+									caught in the daily affairs of life to realise the detriments
+									it brings to us. We are only often shaken by huge life
+									changing events to inspire us for introspection and change.
+									However by nature of life, we are always dragged back into the
+									path most conveniently laid out to us, especially when every
+									step of our lives had been so meticulously planned for us. It
+									is thus difficult to change, but only made easier through
+									mixing with the right friends and social support group who
+									could push you to become the best true version of yourself.{" "}
+									<br />
 									<br />
 									On a personal note, it has been an extremely tiring but
 									enjoyable journey. Being faced with the constraints of
@@ -83,9 +90,10 @@ export default function Contact() {
 									The production was only made possible through the collective
 									efforts of our talented cast, production team and crew. A huge
 									thanks to Jia Ning, Jermayne Yeo, Edward Loke, Gayle Tan,
-									Darin Loh, Calysta Chng, Shiyun and Sophie Lau. Finally, thank
-									you, the audience, for supporting Labyrinth Coldrdige. We hope
-									that you will enjoy the musical as much as we do producing it!
+									Darin Loh, Calysta Chng, Goh Shiyun and Sophie Lau. Finally,
+									thank you, the audience, for supporting Labyrinth Coldridge.
+									We hope that you will enjoy the musical as much as we do
+									producing it!
 									<br />
 									<br />- Noah Teo
 								</Typography>
