@@ -5,7 +5,7 @@ This solo project was built using React and material ui, and hosted on Vercel.
 
 See the website Live - https://thmp-2022.vercel.app/
 
-Darin Loh 
-darinloh@gmail.com 
-https://github.com/talkintomato
-https://www.linkedin.com/in/darinloh/
+Darin Loh  
+darinloh@gmail.com  
+https://github.com/talkintomato   
+https://www.linkedin.com/in/darinloh/   
