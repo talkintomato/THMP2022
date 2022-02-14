@@ -94,6 +94,37 @@ export default function Info() {
 						}}
 					>
 						<Typography variant="h3" fontWeight="bold">
+							Pre-Show Brief
+						</Typography>
+						<Typography
+							variant="h6"
+							style={{
+								marginTop: "2em",
+								marginBottom: "10px",
+								fontFamily: "calibre",
+								fontWeight: "bold",
+							}}
+						>
+							Please be seated by 7:15pm <br />
+							<br />
+							Please ensure that your mobile phones are kept on silent mode
+							throughout the show. We will only allow entry if you are fully
+							vaccinated or exempted from Vaccinated Differentiated Safe
+							Measurement Measures (VDS). Please remain masked and seated
+							throughout the show. No food and drinks allowed.
+						</Typography>
+					</Paper>
+					<Paper
+						elevation={0}
+						style={{
+							padding: "1em ",
+							margin: "5%",
+							alignItems: "center",
+							backgroundColor: "transparent",
+							textAlign: "center",
+						}}
+					>
+						<Typography variant="h3" fontWeight="bold">
 							Sypnopsis
 						</Typography>
 						<Typography
